@@ -14,8 +14,7 @@ void setup() {
 }
 
 String cad, cad1, cad2;
-int vmotor=0,vled=0,pos;
-
+int vmotor=0;
 void loop() {
   if(Serial.available()){
     cad=Serial.readString();
