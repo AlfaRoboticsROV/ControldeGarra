@@ -1,15 +1,11 @@
 import serial
-
-led=0
 mot=0
 
 serialArduino = serial.Serial("COM3",9600)
 print('Bienvenido a Alfa robotics')
 
-
 while True:
-    
-    opcion=input('Seleccione X para cerrar o Y para continuar...\n')
+    opcion=input('Seleccione X para cerrar o Y para continuar...\n')   
     if opcion=='X':
         print('Saliendo del sistema')
         break
